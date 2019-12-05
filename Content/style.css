@@ -1,0 +1,117 @@
+﻿#school_name {
+    position: relative;
+    margin-left: 4em;
+}
+
+#XmenLogo_header {
+    max-width: 95px;
+    position: absolute;
+}
+
+#XmenLogo_footer {
+    max-width: 40px;
+    margin-bottom: 1em;
+}
+/*CSS FOR TABLE-LIKE STYLING*/
+#foodblogs_result {
+    width: 100%;
+}
+
+.picture_main {
+    width: 100%;
+    height: 100%;
+    float: right;
+    
+}
+.picture {
+   width: 100%   
+}
+#foodblogtitle{
+    text-align: center;
+
+
+}
+.listitem {
+    background: #fefefe;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #91b1c9;
+    }
+
+    .listitem:hover {
+        background: #D190A9;
+        color: #e5dada
+    }
+
+    .listitem a {
+        color: #002642;
+    }
+
+        .listitem a:visited {
+            color: #840032;
+        }
+
+        .listitem a:hover {
+            color: #e5dada;
+        }
+
+        .listitem a:active {
+            color: #e5dada;
+        }
+
+.col2, .col2last {
+    float: left;
+    width: 21.73%;
+    margin-right: 4.34%;
+}
+
+.col2last {
+    margin-right: 0%;
+    width: 30%;
+    float: left;
+}
+
+.search_name {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.search_box {
+    float: right;
+    padding: 1em;
+}
+
+.button {
+    background: #002642;
+    padding: 0.5em;
+    color: #e5dada;
+    border-radius: 10px 10px;
+    margin-top: 1em;
+}
+
+.viewnav {
+    background: #002642;
+    padding: 0.5em;
+    color: #e5dada;
+    border-radius: 10px 10px;
+    margin-top: 1em;
+    
+}
+
+    .button:active {
+        background: #840032;
+    }
+
+.list_titles {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
